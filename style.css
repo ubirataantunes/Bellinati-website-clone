@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+.img{
+    background-color: palevioletred;
+    margin-right: 34px;
+    margin-left: 54px;
+}
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2d0e75;
+    margin: 0;
+}
+.menu-header a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #838383;
+    font-weight: bold;
+    background-color: aqua;
+    padding: 40px 3px;
+    margin-right: 31px;
+}
+.menu-header a:hover {
+    color: #7d1416;
+}
+header div {
+    display: flex;
+    list-style: none;
+
+}
+.fa-solid{
+    cursor: pointer;
+}
+.button-text {
+    /*adicionar quebra de linha*/
+    position: relative;
+}
+.button{
+    margin-left: 140px;
+    background-color: rgb(9, 182, 38);
+}
+.btn {
+    color: #ffffff;
+    background-color: #7d1416;
+    padding: 22px 22px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: inherit;
+    position: relative;
+}
+.btn:hover {
+    background-color: #861517;
+    cursor: pointer;
+}
+.sublista{
+    list-style: none;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: left;
+}
+.submenu{
+    margin: 5px;
+} 
+
+/*Banner abaixo da navbar*/
+
+
+#banner img{
+    width: 100%;
+}
+
+/*seçao solucoes*/
+.solucoes { 
+    color: #333333;
+    padding: 100px 25px;
+    text-align: center;
+}
+.solucoes h1 {
+    color: #182825;
+    margin-bottom: 90px;
+    font-size: 50px;
+}
+.solucoes div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.item-solucoes {
+    flex-direction: column;
+    padding: 20px 20px;
+    margin-left: 20px;
+    width: 33%;
+}
+.item-solucoes img {
+    width: 100%;
+}
+.item-solucoes h2 {
+    font-size: 33px;
+    margin-top: 20px;
+    color: #182825;
+}
+.item-solucoes h4{
+    padding: 10px 0;
+    font-size: 24px;
+    color: #838383;
+}
+.item-solucoes h4:hover{
+    color: #861517;
+    cursor: pointer;
+}
+.solucoes .btn {
+    font-size: 20px;  
+}
+
+@media (max-width: 700px) {
+    .solucoes div {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .item-solucoes {
+        margin-top: 30px;
+    }
+    .menu-header {
+        position: absolute;
+        flex-direction: column;
+        left: 50%;
+
+        padding: 20px 10px;
+        background-color: #ffffff;
+        border-radius: 15px;
+    }
+    #btnmenu {
+        display: flex;
+    }
+}
+
+@media (min-width: 702px) {
+    #btnmenu{
+        display: none;
+    }
+}
