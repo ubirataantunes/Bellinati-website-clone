@@ -3,8 +3,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-header {
+header{
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+nav {
     display: flex;
     position: fixed;
     text-align: center;
@@ -126,7 +130,7 @@ header div {
 }
 
 @media (max-width: 769px) {
-    header{
+    nav{
         position: fixed;
         display: flex;
         flex-wrap: wrap;
