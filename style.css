@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -13,14 +13,12 @@ header {
     width: 100%;
 }
 .img{
-    background-color: palevioletred;
     margin-right: 34px;
     margin-left: 54px;
 }
 .menu-header {
     display: flex;
     flex-direction: row;
-    background-color: #2d0e75;
     margin: 0;
 }
 .menu-header a {
@@ -28,8 +26,7 @@ header {
     font-size: 14px;
     color: #838383;
     font-weight: bold;
-    background-color: aqua;
-    padding: 40px 3px;
+    padding: 37px 3px;
     margin-right: 31px;
 }
 .menu-header a:hover {
@@ -44,18 +41,15 @@ header div {
     cursor: pointer;
 }
 .button-text {
-    /*adicionar quebra de linha*/
-    position: relative;
-}
-.button{
-    margin-left: 140px;
-    background-color: rgb(9, 182, 38);
+    max-width: 13ch;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 18px;
 }
 .btn {
     color: #ffffff;
     background-color: #7d1416;
-    padding: 22px 22px;
-    font-size: 20px;
+    padding: 14px 40px;
     border: none;
     border-radius: 8px;
     text-align: center;
@@ -65,6 +59,9 @@ header div {
 .btn:hover {
     background-color: #861517;
     cursor: pointer;
+}
+.button{
+    margin-left: 135px;
 }
 .sublista{
     list-style: none;
@@ -128,7 +125,21 @@ header div {
     font-size: 20px;  
 }
 
-@media (max-width: 700px) {
+@media (max-width: 769px) {
+    header{
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img{
+        margin: 0;
+        padding: 0 55px;
+    }
+    .button{
+        margin: 0;
+        padding: 0 50px;
+    }
     .solucoes div {
         margin: 0 auto;
         flex-direction: column;
@@ -137,20 +148,19 @@ header div {
         margin-top: 30px;
     }
     .menu-header {
-        position: absolute;
         flex-direction: column;
         left: 50%;
-
         padding: 20px 10px;
         background-color: #ffffff;
         border-radius: 15px;
     }
     #btnmenu {
         display: flex;
+        position: relative;
     }
 }
 
-@media (min-width: 702px) {
+@media (min-width: 1150px) {
     #btnmenu{
         display: none;
     }
