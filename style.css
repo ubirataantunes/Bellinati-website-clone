@@ -136,14 +136,15 @@ header div {
 
  /* seção sobre */
 .sobre {
+    width: 100%;
     background-color: #e9e5e5;
     display: flex;
     flex-flow: column wrap;
-    padding: 150px 105px;
 }
 .sobre1 {
     gap: 70px;
     display: flex;
+    margin: 0 105px;
 }
 .sobre p {
     color: #707070;
@@ -174,8 +175,38 @@ header div {
     cursor: pointer;
     text-decoration: none;
 }
-.img-sobre1 {
-    margin: 0;
+footer {
+    width: 100%;
+    background-color: #7d1416;
+    display: flex;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: start;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+footer div {
+    margin: 50px;
+}
+footer p {
+    padding: 50px;
+    max-width: 750px;
+    letter-spacing: 0ch;
+    line-height: 50px;
+}
+/*botão footer */
+.btn-footer {
+    font-size: 18px;
+    color: #7d1416;
+    background-color: #ffffff;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
 }
 
 @media (max-width: 1150px) {
