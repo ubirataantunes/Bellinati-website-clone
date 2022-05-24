@@ -1,7 +1,7 @@
 # Bellinati-website-clone
 
-I'm currently working to finish this project.
+Esse projeto ainda está em andamento.
 
-I.m using HTML, CSS and JavaScript to made it. 
+Estou usando HTML, CSS e JavaScript para fazer isso.
 
-This project will help me to learn about responsive pages and JavaScript interaction with HTML and CSS.
+Este projeto está me ajudando a compreender sobre páginas responsivas e interação JavaScript com HTML e CSS.
