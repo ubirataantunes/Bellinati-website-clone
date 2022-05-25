@@ -149,13 +149,20 @@ header div {
     background-color: #e9e5e5;
     display: flex;
     flex-flow: column wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.sobre1 {
+.sobre > .sobre1 {
+    width: 100%;
     gap: 70px;
     display: flex;
-    margin: 0 105px;
+
+}
+.sobre1 > div {
+    margin-left: 30px;
 }
 .sobre p {
+    width: 100%;
     color: #707070;
     font-size: 18px;
     padding: 20px 0;
@@ -225,10 +232,15 @@ header div {
     font-size: 12px;
     align-items: center;
 }
-
+.menu-footer > div {
+    margin: 10px;
+    flex-grow: 0;
+    padding: 40px 0px 30px 40px;
+}
 .img-footer{
     flex-grow: 0;
     flex-shrink: 0;
+    padding: 40px;
 }
 .lista-menu-superior ul {
     list-style: none;
@@ -237,7 +249,7 @@ header div {
     flex-direction: row;
     color:#707070;
     padding: 5px;
-    gap: 10px;
+    gap: 18px;
     font-weight: bold;
 }
 .copyright div ul {
@@ -246,7 +258,7 @@ header div {
     display: flex;
     flex-direction: row;
     padding: 5px;
-    gap: 10px;
+    gap: 15px;
     font-weight: bold;
 }
 .copyright {
@@ -254,11 +266,15 @@ header div {
     flex-direction: row;
     text-align: center;
 }
-.menu-footer1  {
+.menu-footer1 {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
     text-align: center;
+    padding-left: 0;
+}
+.redes-sociais-icone {
+    padding-left: 270px;
 }
 
 
