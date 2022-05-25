@@ -30,7 +30,6 @@ nav div {
 .menu-header {
     display: flex;
     flex-direction: row;
-    margin: 0;
 }
 .menu-header a {
     text-decoration: none;
@@ -42,6 +41,9 @@ nav div {
 }
 .menu-header a:hover {
     color: #7d1416;
+    border-top: 6px solid #861517;
+    padding: 31px 3px;
+    
 }
 header div {
     display: flex;
@@ -69,7 +71,7 @@ header div {
     text-decoration: inherit;
     position: relative;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .btn:hover {
     background-color: #861517;
@@ -151,6 +153,7 @@ header div {
     flex-flow: column wrap;
     padding-top: 100px;
     padding-bottom: 100px;
+    justify-items: center;
 }
 .sobre > .sobre1 {
     width: 100%;
@@ -159,7 +162,7 @@ header div {
 
 }
 .sobre1 > div {
-    margin-left: 30px;
+    margin-left: 70px;
 }
 .sobre p {
     width: 100%;
@@ -181,6 +184,7 @@ header div {
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    max-width: 500px;
 
 }
 .texto-sobre1 .btn{
