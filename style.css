@@ -7,6 +7,7 @@ header{
     display: block;
     position: absolute;
     width: 100%;
+    text-align: center;
 }
 nav {
     display: flex;
@@ -15,6 +16,12 @@ nav {
     align-items: center;
     background-color: #ffffff;
     width: 100%;
+    flex-wrap: wrap;
+}
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
 }
 .img{
     margin-right: 34px;
@@ -61,6 +68,8 @@ header div {
     text-align: center;
     text-decoration: inherit;
     position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .btn:hover {
     background-color: #861517;
@@ -175,7 +184,7 @@ header div {
     cursor: pointer;
     text-decoration: none;
 }
-footer {
+.Entre-em-contato {
     width: 100%;
     background-color: #7d1416;
     display: flex;
@@ -187,10 +196,10 @@ footer {
     flex-flow: row wrap;
     justify-content: space-around;
 }
-footer div {
+.Entre-em-contato div {
     margin: 50px;
 }
-footer p {
+.Entre-em-contato p {
     padding: 50px;
     max-width: 750px;
     letter-spacing: 0ch;
@@ -208,6 +217,50 @@ footer p {
     font-weight: bold;
     position: relative;
 }
+/*ultima parte do footer*/
+.menu-footer{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.img-footer{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.lista-menu-superior ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color:#707070;
+    padding: 5px;
+    gap: 10px;
+    font-weight: bold;
+}
+.copyright div ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 10px;
+    font-weight: bold;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.menu-footer1  {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    text-align: center;
+}
+
 
 @media (max-width: 1150px) {
     nav{
