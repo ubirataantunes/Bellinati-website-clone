@@ -256,6 +256,9 @@ header div {
     gap: 18px;
     font-weight: bold;
 }
+.lista-menu-superior ul li {
+    cursor: pointer;
+}
 .copyright div ul {
     list-style: none;
     text-decoration: none;
