@@ -255,6 +255,7 @@ header div {
     padding: 5px;
     gap: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 .copyright div ul {
     list-style: none;
